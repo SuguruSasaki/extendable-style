@@ -20,13 +20,27 @@ const BaseTitle: React.FC<BaseTitleProps> = ({ label, className }) => {
 
 
 ```typescript
-import BaseButton from 'BaseButton'
+// RedTitle.ts
+import BaseTitle from 'BaseBTitle'
 import extendable from "extendable-style";
 
-// 
+// change label color
 export default extendable(BaseTitle, () => ({
   color: "#FF0000",
-  "font-size": "0.875rem",
-  "font-weight": "200",
 }));
+```
+
+```typescript
+import React from "react";
+import RedTitle from 'RedTitle'
+import BaseTitle from 'BaseTitle'
+
+const App: React.FC = () => {
+    return (
+    <>
+        <RedTitle lable="Red title" />
+        <BaseTitle label="Base title" />
+    </>
+    )
+}
 ```
