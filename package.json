@@ -1,0 +1,22 @@
+{
+  "name": "extendable-style",
+  "version": "1.0.0",
+  "description": "You can use Styled-components to extend your styling.",
+  "main": "./libs/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "sugurusasaki (ss0402@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "@types/styled-components": "^5.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  }
+}
