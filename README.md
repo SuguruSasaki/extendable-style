@@ -2,7 +2,7 @@
 
 ## usage
 
-Normally, 
+BaseButton component.
 
 ```typescript
 import React from "react";
@@ -18,6 +18,7 @@ const BaseTitle: React.FC<BaseTitleProps> = ({ label, className }) => {
 };
 ```
 
+extend BaseButton component, named RedTitle
 
 ```typescript
 // RedTitle.ts
@@ -29,6 +30,7 @@ export default extendable(BaseTitle, () => ({
   color: "#FF0000",
 }));
 ```
+
 
 ```typescript
 import React from "react";
